@@ -17,4 +17,4 @@ Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
   twoscps_announcement: mtfunit epsilon 11 designated {mtfunit} number {mtfnum} hasentered allremaining awaitingrecontainment {scpnum} scpsubjects
   ```
 # Note
-This plugin does not support subtitle feature, that means if you use this plugin the subtitle for NTF announcement will not show up.
+This plugin does not support subtitle feature, that means the subtitle for NTF announcement will not show up.
