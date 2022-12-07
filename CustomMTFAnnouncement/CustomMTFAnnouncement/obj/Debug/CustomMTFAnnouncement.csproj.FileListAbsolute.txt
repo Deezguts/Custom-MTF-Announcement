@@ -1,0 +1,14 @@
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\CustomMTFAnnouncement.dll.config
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\CustomMTFAnnouncement.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\CustomMTFAnnouncement.pdb
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\Assembly-CSharp_publicized.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\CommandSystem.Core.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\NorthwoodLib.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\System.Buffers.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\0Harmony.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\bin\Debug\YamlDotNet.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\obj\Debug\CustomMTFAnnouncement.csproj.AssemblyReference.cache
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\obj\Debug\CustomMTFAnnouncement.csproj.CoreCompileInputs.cache
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\obj\Debug\CustomMTFAnnouncement.csproj.CopyComplete
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\obj\Debug\CustomMTFAnnouncement.dll
+C:\Users\tampa\Downloads\CustomMTFAnnouncement\CustomMTFAnnouncement\obj\Debug\CustomMTFAnnouncement.pdb
