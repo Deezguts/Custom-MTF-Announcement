@@ -3,7 +3,7 @@ A simple exiled plugin that changes the Cassie announcement when NTF spawned.
 
 # Installation
 Requires [Exiled 5.3.0+](https://github.com/Exiled-Team/EXILED/releases) for this plugin to work.
-Simply place CustomMTFAnnouncement.dll into your EXILED/Plugins Folder.
+Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
 
 # Configs
 ```yml
