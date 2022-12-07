@@ -1,4 +1,4 @@
-# CustomMTFAnnouncement
+# Custom MTF Announcement
 A simple exiled plugin that changes the Cassie announcement when NTF spawned.
 
 # Installation
