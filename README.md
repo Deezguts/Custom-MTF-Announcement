@@ -21,7 +21,7 @@ Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
   # What should cassie say when there are more than 2 scps left.
   twoscps_announcement: mtfunit epsilon 11 designated {mtfunit} {mtfnum} hasentered allremaining awaitingrecontainment {scpnum} scpsubjects
   # Whether or not debug messages should be shown in the console.
-  Debug { get; set; }
+  Debug: false
   ```
 # Note
 This plugin does not support subtitle feature, that means the subtitle for NTF announcement will not show up.
