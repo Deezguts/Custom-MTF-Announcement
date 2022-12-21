@@ -1,12 +1,5 @@
-﻿using Exiled.API.Interfaces;
-using Exiled.API.Extensions;
-using Exiled.API.Enums;
-using Exiled.API.Features;
-using System.Collections.Generic;
+using Exiled.API.Interfaces;
 using System.ComponentModel;
-using Exiled.API.Features.Items;
-using Exiled.Events.Handlers;
-using Item = Exiled.API.Features.Items.Item;
 
 namespace CustomMTFAnnouncement
 {
@@ -23,5 +16,8 @@ namespace CustomMTFAnnouncement
 
         [Description("What should cassie say when there are more than 2 scps left.")]
         public string TwoscpsAnnouncement { get; set; } = "mtfunit epsilon 11 designated {mtfunit} {mtfnum} hasentered allremaining awaitingrecontainment {scpnum} scpsubjects";
+
+        [Description("Whether or not debug messages should be shown in the console.")]
+        public bool Debug { get; set; }
     }
 }
