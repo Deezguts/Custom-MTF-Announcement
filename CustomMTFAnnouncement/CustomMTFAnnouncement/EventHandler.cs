@@ -1,13 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Exiled.API;
-using Respawning;
 using Exiled.API.Features;
-
-using Exiled.Events.EventArgs;
-
+using Exiled.Events.EventArgs.Map;
 
 namespace CustomMTFAnnouncement
 {
@@ -22,6 +16,11 @@ namespace CustomMTFAnnouncement
             ev.IsAllowed = false;
             if (ev.ScpsLeft == 0)
             {
+                if (Plugin.Singleton.Config.Debug)
+                {
+                    Log.Debug("Sending 0 SCP Announcement");
+                }
+
                 noscpcassie = noscpcassie.Replace("{mtfunit}", $"nato_{ev.UnitName[0]}");
                 noscpcassie = noscpcassie.Replace("{mtfnum}", $"{ev.UnitNumber}");
 
@@ -30,7 +29,11 @@ namespace CustomMTFAnnouncement
             }
             if (ev.ScpsLeft == 1)
             {
-                ev.IsAllowed = false;
+                if (Plugin.Singleton.Config.Debug)
+                {
+                    Log.Debug("Sending 1 SCP Announcement");
+                }
+
                 onescpcassie = onescpcassie.Replace("{mtfunit}", $"nato_{ev.UnitName[0]}");
                 onescpcassie = onescpcassie.Replace("{mtfnum}", $"{ev.UnitNumber}");
                 onescpcassie = onescpcassie.Replace("{scpnum}", $"{ev.ScpsLeft}");
@@ -40,7 +43,11 @@ namespace CustomMTFAnnouncement
             }
             if (ev.ScpsLeft > 1)
             {
-                ev.IsAllowed = false;
+                if (Plugin.Singleton.Config.Debug)
+                {
+                    Log.Debug("Sending 2+ SCPS Announcement");
+                }
+
                 twoscpcassie = twoscpcassie.Replace("{mtfunit}", $"nato_ {ev.UnitName[0]}");
                 twoscpcassie = twoscpcassie.Replace("{mtfnum}", $"{ev.UnitNumber}");
                 twoscpcassie = twoscpcassie.Replace("{scpnum}", $"{ev.ScpsLeft}");
