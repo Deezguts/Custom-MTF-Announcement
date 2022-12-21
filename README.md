@@ -1,8 +1,8 @@
-# Custom MTF Announcement
+# Custom MTF Announcement (EXILED 6 EDITION)
 A simple exiled plugin that changes the Cassie announcement when NTF spawned.
 
 # Installation
-Requires [Exiled 5.3.0+](https://github.com/Exiled-Team/EXILED/releases) for this plugin to work.
+Requires [Exiled 6.0.0]() for this plugin to work.
 Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
 
 # Instructions
@@ -20,6 +20,8 @@ Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
   onescp_announcement: mtfunit epsilon 11 designated {mtfunit} {mtfnum} hasentered allremaining awaitingrecontainment {scpnum} scpsubject
   # What should cassie say when there are more than 2 scps left.
   twoscps_announcement: mtfunit epsilon 11 designated {mtfunit} {mtfnum} hasentered allremaining awaitingrecontainment {scpnum} scpsubjects
+  # Whether or not debug messages should be shown in the console.
+  public bool Debug { get; set; }
   ```
 # Note
 This plugin does not support subtitle feature, that means the subtitle for NTF announcement will not show up.
