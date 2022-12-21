@@ -8,7 +8,7 @@ Simply place **CustomMTFAnnouncement.dll** into your Exiled plugins folder.
 # Instructions
 * {mtfunit} Replaces with the unit team like XRAY.
 * {mtfnum} Replaces with the unit number like 02.
-* {scpnum} Replaces with number of scps.
+* {scpnum} Replaces with amount of scps.
 
 # Configs
 ```yml
